@@ -48,7 +48,7 @@ public class Book {
 
     @Override
     public int hashCode() {
-         return 5698842;
+        return new Long(isbn.isbnCode).intValue();
     }
 
     @Override

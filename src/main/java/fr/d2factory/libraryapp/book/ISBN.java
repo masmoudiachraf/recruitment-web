@@ -21,7 +21,7 @@ public class ISBN {
 
     @Override
     public int hashCode() {
-        return 5698742;
+        return new Long(isbnCode).intValue();
     }
 
     @Override
