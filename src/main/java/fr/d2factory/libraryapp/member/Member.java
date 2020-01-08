@@ -12,6 +12,8 @@ public abstract class Member {
      */
     private float wallet;
 
+    private boolean isLate;
+
     /**
      * The member should pay their books when they are returned to the library
      *
@@ -25,5 +27,13 @@ public abstract class Member {
 
     public void setWallet(float wallet) {
         this.wallet = wallet;
+    }
+
+    public boolean isLate() {
+        return isLate;
+    }
+
+    public void setLate(boolean late) {
+        isLate = late;
     }
 }
